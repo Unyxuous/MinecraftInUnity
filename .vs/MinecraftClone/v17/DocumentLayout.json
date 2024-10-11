@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A420A66D-A48E-CDEA-F660-E8C1F1E477B9}|Assembly-CSharp.csproj|c:\\users\\potatocakes\\desktop\\other\\programming\\unity\\minecraftclone\\assets\\scripts\\terraingeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A420A66D-A48E-CDEA-F660-E8C1F1E477B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\terraingeneration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A420A66D-A48E-CDEA-F660-E8C1F1E477B9}|Assembly-CSharp.csproj|c:\\users\\potatocakes\\desktop\\other\\programming\\unity\\minecraftclone\\assets\\scripts\\chunk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A420A66D-A48E-CDEA-F660-E8C1F1E477B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\chunk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A420A66D-A48E-CDEA-F660-E8C1F1E477B9}|Assembly-CSharp.csproj|C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A420A66D-A48E-CDEA-F660-E8C1F1E477B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A420A66D-A48E-CDEA-F660-E8C1F1E477B9}|Assembly-CSharp.csproj|C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\assets\\scripts\\world.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A420A66D-A48E-CDEA-F660-E8C1F1E477B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\world.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TerrainGeneration.cs",
+              "DocumentMoniker": "C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\Assets\\Scripts\\TerrainGeneration.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TerrainGeneration.cs",
+              "ToolTip": "C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\Assets\\Scripts\\TerrainGeneration.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TerrainGeneration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T11:49:20.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\Assets\\Scripts\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
+              "ToolTip": "C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\Assets\\Scripts\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAADgvxYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-09T17:59:48.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Chunk.cs",
+              "DocumentMoniker": "C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\Assets\\Scripts\\Chunk.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Chunk.cs",
+              "ToolTip": "C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\Assets\\Scripts\\Chunk.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Chunk.cs",
+              "ViewState": "AgIAALMAAAAAAAAAAIBZwLgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T06:33:17.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "World.cs",
+              "DocumentMoniker": "C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\Assets\\Scripts\\World.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\World.cs",
+              "ToolTip": "C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\Assets\\Scripts\\World.cs",
+              "RelativeToolTip": "Assets\\Scripts\\World.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-08T10:18:00.797Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
