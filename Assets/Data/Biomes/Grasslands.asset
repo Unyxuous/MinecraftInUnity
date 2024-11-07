@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7412f901cb0a9a4bad13e2c4ee19299, type: 3}
+  m_Name: Grasslands
+  m_EditorClassIdentifier: 
+  biomeName: Grasslands
+  offset: 123
+  scale: 10
+  terrainHeight: 22
+  surfaceBlockDepth: 4
+  terrainScale: 10
+  surfaceBlock: 2
+  subSurfaceBlock: 3
+  majorFloraIndex: 0
+  majorFloraZoneOffset: 0
+  majorFloraZoneScale: 1.3
+  majorFloraZoneThreshold: 0.6
+  majorFloraPlacementOffset: 0
+  majorFloraPlacementScale: 0.03
+  majorFloraPlacementThreshold: 0.974
+  maxMajorFloraHeight: 12
+  minMajorFloraHeight: 5
+  placeMajorFlora: 1
+  ores:
+  - name: Dirt
+    blockID: 3
+    minHeight: 1
+    maxHeight: 255
+    scale: 0.24
+    threshold: 0.7
+    noiseOffset: 0
+  - name: Caves
+    blockID: 0
+    minHeight: 5
+    maxHeight: 60
+    scale: 0.24
+    threshold: 0.7
+    noiseOffset: 2412
