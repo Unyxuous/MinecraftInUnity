@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\Data\WorldData.cs" />
     <Compile Include="Assets\Scripts\CreativeInventory.cs" />
     <Compile Include="Assets\Scripts\Clouds.cs" />
+    <Compile Include="Assets\Scripts\BlockBehavior.cs" />
     <Compile Include="Assets\Scripts\TerrainGeneration.cs" />
     <Compile Include="Assets\Scripts\Chunk.cs" />
     <Compile Include="Assets\Scripts\DragAndDropHandler.cs" />
@@ -76,6 +77,7 @@
     <Compile Include="Assets\Scripts\DebugScreen.cs" />
     <Compile Include="Assets\Scripts\HotBar.cs" />
     <Compile Include="Assets\Scripts\UIItemSlot.cs" />
+    <Compile Include="Assets\Scripts\Data\VoxelMeshData.cs" />
     <Compile Include="Assets\Scripts\UI\TitleMenu.cs" />
     <Compile Include="Assets\Scripts\Lighting.cs" />
     <Compile Include="Assets\Scripts\SaveSystem.cs" />
@@ -97,6 +99,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\Scripts\WaterShader.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />

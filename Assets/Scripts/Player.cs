@@ -29,6 +29,8 @@ public class Player : MonoBehaviour
     private float verticalMomentum = 0;
     private bool jumpRequest;
 
+    public int orientation;
+
     public Transform highlightBlock;
     public Transform placeHighlightBlock;
 
@@ -73,6 +75,27 @@ public class Player : MonoBehaviour
 
             GetPlayerInput();
             PlaceCursorBlocks();
+        }
+
+        //only concerned with rotating left/right, not up/down for now, so y is set to 0
+        Vector3 XZDirection = transform.forward;
+        XZDirection.y = 0;
+        //orientation is based on VoxelData.voxelTriangles
+        if (Vector3.Angle(XZDirection, Vector3.forward) <= 45)
+        {
+            orientation = 0;
+        }
+        else if (Vector3.Angle(XZDirection, Vector3.right) <= 45)
+        {
+            orientation = 5;
+        }
+        else if (Vector3.Angle(XZDirection, Vector3.back) <= 45)
+        {
+            orientation = 1;
+        }
+        else if (Vector3.Angle(XZDirection, Vector3.left) <= 45)
+        {
+            orientation = 4;
         }
     }
 

@@ -8,6 +8,10 @@ public static class VoxelData
     public static readonly int CHUNK_WIDTH = 16;
     public static readonly int CHUNK_HEIGHT = 128;
 
+    public static readonly int SEA_LEVEL = 51;
+
+    public static float tickLength = 1f;
+
     //Lighting values
     public static float minLightLevel = 0.01f;
     public static float maxLightLevel = 0.8f;
@@ -45,14 +49,14 @@ public static class VoxelData
 
     public static readonly Vector3Int[] voxelVertices = 
     { 
-        new Vector3Int(0, 0, 0),
-        new Vector3Int(1, 0, 0),
-        new Vector3Int(1, 1, 0),
-        new Vector3Int(0, 1, 0),
-        new Vector3Int(0, 0, 1),
-        new Vector3Int(1, 0, 1),
-        new Vector3Int(1, 1, 1),
-        new Vector3Int(0, 1, 1)
+        new Vector3Int(0, 0, 0), //0
+        new Vector3Int(1, 0, 0), //1
+        new Vector3Int(1, 1, 0), //2
+        new Vector3Int(0, 1, 0), //3
+        new Vector3Int(0, 0, 1), //4
+        new Vector3Int(1, 0, 1), //5
+        new Vector3Int(1, 1, 1), //6
+        new Vector3Int(0, 1, 1)  //7
     };
 
     public static readonly int[,] voxelTriangles = 

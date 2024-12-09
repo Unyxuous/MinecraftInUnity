@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A420A66D-A48E-CDEA-F660-E8C1F1E477B9}|Assembly-CSharp.csproj|C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\assets\\scripts\\chunk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A420A66D-A48E-CDEA-F660-E8C1F1E477B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\chunk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A420A66D-A48E-CDEA-F660-E8C1F1E477B9}|Assembly-CSharp.csproj|C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\assets\\scripts\\data\\chunkdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A420A66D-A48E-CDEA-F660-E8C1F1E477B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\chunkdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A420A66D-A48E-CDEA-F660-E8C1F1E477B9}|Assembly-CSharp.csproj|C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\assets\\scripts\\lighting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A420A66D-A48E-CDEA-F660-E8C1F1E477B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\lighting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A420A66D-A48E-CDEA-F660-E8C1F1E477B9}|Assembly-CSharp.csproj|c:\\users\\potatocakes\\desktop\\other\\programming\\unity\\minecraftclone\\assets\\scripts\\voxeldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A420A66D-A48E-CDEA-F660-E8C1F1E477B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\voxeldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A420A66D-A48E-CDEA-F660-E8C1F1E477B9}|Assembly-CSharp.csproj|C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\assets\\scripts\\world.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A420A66D-A48E-CDEA-F660-E8C1F1E477B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\world.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A420A66D-A48E-CDEA-F660-E8C1F1E477B9}|Assembly-CSharp.csproj|C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\assets\\scripts\\chunk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A420A66D-A48E-CDEA-F660-E8C1F1E477B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\chunk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A420A66D-A48E-CDEA-F660-E8C1F1E477B9}|Assembly-CSharp.csproj|C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\assets\\scripts\\voxeldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A420A66D-A48E-CDEA-F660-E8C1F1E477B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\voxeldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A420A66D-A48E-CDEA-F660-E8C1F1E477B9}|Assembly-CSharp.csproj|C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\assets\\scripts\\data\\worlddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A420A66D-A48E-CDEA-F660-E8C1F1E477B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\worlddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A420A66D-A48E-CDEA-F660-E8C1F1E477B9}|Assembly-CSharp.csproj|C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\assets\\scripts\\data\\voxelstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A420A66D-A48E-CDEA-F660-E8C1F1E477B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\voxelstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A420A66D-A48E-CDEA-F660-E8C1F1E477B9}|Assembly-CSharp.csproj|C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\assets\\scripts\\data\\voxelmeshdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A420A66D-A48E-CDEA-F660-E8C1F1E477B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\voxelmeshdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A420A66D-A48E-CDEA-F660-E8C1F1E477B9}|Assembly-CSharp.csproj|C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\assets\\scripts\\data\\chunkdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A420A66D-A48E-CDEA-F660-E8C1F1E477B9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\chunkdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A420A66D-A48E-CDEA-F660-E8C1F1E477B9}|Assembly-CSharp.csproj|C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\assets\\scripts\\savesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,26 +50,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Lighting.cs",
-              "DocumentMoniker": "C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\Assets\\Scripts\\Lighting.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Lighting.cs",
-              "ToolTip": "C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\Assets\\Scripts\\Lighting.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Lighting.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "VoxelState.cs",
+              "DocumentMoniker": "C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\Assets\\Scripts\\Data\\VoxelState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\VoxelState.cs",
+              "ToolTip": "C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\Assets\\Scripts\\Data\\VoxelState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Data\\VoxelState.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T17:40:14.274Z",
+              "WhenOpened": "2024-11-19T12:13:08.265Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "VoxelData.cs",
               "DocumentMoniker": "C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\Assets\\Scripts\\VoxelData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\VoxelData.cs",
               "ToolTip": "C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\Assets\\Scripts\\VoxelData.cs",
               "RelativeToolTip": "Assets\\Scripts\\VoxelData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-06T17:30:29.354Z",
               "EditorCaption": ""
@@ -73,6 +77,69 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "ChunkData.cs",
+              "DocumentMoniker": "C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\Assets\\Scripts\\Data\\ChunkData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\ChunkData.cs",
+              "ToolTip": "C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\Assets\\Scripts\\Data\\ChunkData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Data\\ChunkData.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwFQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T12:30:22.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "World.cs",
+              "DocumentMoniker": "C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\Assets\\Scripts\\World.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\World.cs",
+              "ToolTip": "C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\Assets\\Scripts\\World.cs",
+              "RelativeToolTip": "Assets\\Scripts\\World.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAcwJ4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T09:47:04.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Chunk.cs",
+              "DocumentMoniker": "C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\Assets\\Scripts\\Chunk.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Chunk.cs",
+              "ToolTip": "C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\Assets\\Scripts\\Chunk.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Chunk.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwHoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-16T13:57:15.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VoxelMeshData.cs",
+              "DocumentMoniker": "C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\Assets\\Scripts\\Data\\VoxelMeshData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\VoxelMeshData.cs",
+              "ToolTip": "C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\Assets\\Scripts\\Data\\VoxelMeshData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Data\\VoxelMeshData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T12:49:37.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WorldData.cs",
+              "DocumentMoniker": "C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\Assets\\Scripts\\Data\\WorldData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\WorldData.cs",
+              "ToolTip": "C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\Assets\\Scripts\\Data\\WorldData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Data\\WorldData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T12:39:57.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "SaveSystem.cs",
               "DocumentMoniker": "C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\Assets\\Scripts\\SaveSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SaveSystem.cs",
@@ -81,56 +148,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T13:27:21.471Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ChunkData.cs",
-              "DocumentMoniker": "C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\Assets\\Scripts\\Data\\ChunkData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\ChunkData.cs",
-              "ToolTip": "C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\Assets\\Scripts\\Data\\ChunkData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Data\\ChunkData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T12:30:22.145Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "WorldData.cs",
-              "DocumentMoniker": "C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\Assets\\Scripts\\Data\\WorldData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\WorldData.cs",
-              "ToolTip": "C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\Assets\\Scripts\\Data\\WorldData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Data\\WorldData.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAQwE8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T12:29:16.917Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Chunk.cs",
-              "DocumentMoniker": "C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\Assets\\Scripts\\Chunk.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Chunk.cs",
-              "ToolTip": "C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\Assets\\Scripts\\Chunk.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Chunk.cs",
-              "ViewState": "AgIAAP0AAAAAAAAAAAAkwDUBAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T13:57:15.365Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "World.cs",
-              "DocumentMoniker": "C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\Assets\\Scripts\\World.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\World.cs",
-              "ToolTip": "C:\\Users\\Potatocakes\\Desktop\\Other\\Programming\\Unity\\MinecraftClone\\Assets\\Scripts\\World.cs",
-              "RelativeToolTip": "Assets\\Scripts\\World.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAgwC8AAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-16T09:47:04.246Z"
             }
           ]
         }

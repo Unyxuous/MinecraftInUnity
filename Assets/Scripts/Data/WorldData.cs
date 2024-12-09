@@ -94,7 +94,7 @@ public class WorldData
             pos.z >= 0 && pos.z < VoxelData.WORLD_SIZE_IN_VOXELS);
     }
 
-    public void SetVoxel(Vector3Int pos, byte val)
+    public void SetVoxel(Vector3Int pos, byte val, int _orientation)
     {
         if (!IsVoxelInWorld(pos))
         {
@@ -108,9 +108,7 @@ public class WorldData
 
         Vector3Int voxel = new Vector3Int(pos.x - x, pos.y, pos.z - z);
 
-        chunk.map[voxel.x, voxel.y, voxel.z].id = val;
-
-        AddToModifiedChunks(chunk);
+        chunk.ModifyVoxel(voxel, val, _orientation);
     }
 
     public VoxelState GetVoxel(Vector3Int pos)
@@ -123,7 +121,12 @@ public class WorldData
         int x = (pos.x / VoxelData.CHUNK_WIDTH) * VoxelData.CHUNK_WIDTH;
         int z = (pos.z / VoxelData.CHUNK_WIDTH) * VoxelData.CHUNK_WIDTH;
 
-        ChunkData chunk = RequestChunk(new Vector2Int(x, z), true);
+        ChunkData chunk = RequestChunk(new Vector2Int(x, z), false);
+
+        if (chunk == null)
+        {
+            return null;
+        }
 
         Vector3Int voxel = new Vector3Int(pos.x - x, pos.y, pos.z - z);
 

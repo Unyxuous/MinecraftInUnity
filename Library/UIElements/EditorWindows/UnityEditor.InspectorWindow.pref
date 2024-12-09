@@ -23,8 +23,34 @@ MonoBehaviour:
   - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-slots__unity-vertical-collection-scroll-view__Slider__UnityEngine.UIElements.Scroller+ScrollerSlider
   - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-biomes__UnityEngine.UIElements.ListView
   - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-biomes__unity-vertical-collection-scroll-view__Slider__UnityEngine.UIElements.Scroller+ScrollerSlider
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-faces__UnityEngine.UIElements.ListView
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-faces__unity-vertical-collection-scroll-view__Slider__UnityEngine.UIElements.Scroller+ScrollerSlider
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-faces__unity-vertical-collection-scroll-view__unity-list-faces.Array.data[1].vertData__UnityEngine.UIElements.ListView
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-faces__unity-vertical-collection-scroll-view__unity-list-faces.Array.data[1].vertData__unity-vertical-collection-scroll-view__Slider__UnityEngine.UIElements.Scroller+ScrollerSlider
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-faces__unity-vertical-collection-scroll-view__unity-list-faces.Array.data[1].triangles__UnityEngine.UIElements.ListView
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-faces__unity-vertical-collection-scroll-view__unity-list-faces.Array.data[1].triangles__unity-vertical-collection-scroll-view__Slider__UnityEngine.UIElements.Scroller+ScrollerSlider
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-faces__unity-vertical-collection-scroll-view__unity-list-faces.Array.data[0].vertData__UnityEngine.UIElements.ListView
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-faces__unity-vertical-collection-scroll-view__unity-list-faces.Array.data[0].vertData__unity-vertical-collection-scroll-view__Slider__UnityEngine.UIElements.Scroller+ScrollerSlider
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-faces__unity-vertical-collection-scroll-view__unity-list-faces.Array.data[0].triangles__UnityEngine.UIElements.ListView
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-faces__unity-vertical-collection-scroll-view__unity-list-faces.Array.data[0].triangles__unity-vertical-collection-scroll-view__Slider__UnityEngine.UIElements.Scroller+ScrollerSlider
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-faces__unity-vertical-collection-scroll-view__unity-list-faces.Array.data[5].vertData__UnityEngine.UIElements.ListView
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-faces__unity-vertical-collection-scroll-view__unity-list-faces.Array.data[5].vertData__unity-vertical-collection-scroll-view__Slider__UnityEngine.UIElements.Scroller+ScrollerSlider
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-faces__unity-vertical-collection-scroll-view__unity-list-faces.Array.data[5].triangles__UnityEngine.UIElements.ListView
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-faces__unity-vertical-collection-scroll-view__unity-list-faces.Array.data[5].triangles__unity-vertical-collection-scroll-view__Slider__UnityEngine.UIElements.Scroller+ScrollerSlider
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-faces__unity-vertical-collection-scroll-view__unity-list-faces.Array.data[4].vertData__UnityEngine.UIElements.ListView
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-faces__unity-vertical-collection-scroll-view__unity-list-faces.Array.data[4].vertData__unity-vertical-collection-scroll-view__Slider__UnityEngine.UIElements.Scroller+ScrollerSlider
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-faces__unity-vertical-collection-scroll-view__unity-list-faces.Array.data[4].triangles__UnityEngine.UIElements.ListView
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-faces__unity-vertical-collection-scroll-view__unity-list-faces.Array.data[4].triangles__unity-vertical-collection-scroll-view__Slider__UnityEngine.UIElements.Scroller+ScrollerSlider
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-faces__unity-vertical-collection-scroll-view__unity-list-faces.Array.data[3].vertData__UnityEngine.UIElements.ListView
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-faces__unity-vertical-collection-scroll-view__unity-list-faces.Array.data[3].vertData__unity-vertical-collection-scroll-view__Slider__UnityEngine.UIElements.Scroller+ScrollerSlider
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-faces__unity-vertical-collection-scroll-view__unity-list-faces.Array.data[3].triangles__UnityEngine.UIElements.ListView
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-faces__unity-vertical-collection-scroll-view__unity-list-faces.Array.data[3].triangles__unity-vertical-collection-scroll-view__Slider__UnityEngine.UIElements.Scroller+ScrollerSlider
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-faces__unity-vertical-collection-scroll-view__unity-list-faces.Array.data[2].vertData__UnityEngine.UIElements.ListView
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-faces__unity-vertical-collection-scroll-view__unity-list-faces.Array.data[2].vertData__unity-vertical-collection-scroll-view__Slider__UnityEngine.UIElements.Scroller+ScrollerSlider
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-faces__unity-vertical-collection-scroll-view__unity-list-faces.Array.data[2].triangles__UnityEngine.UIElements.ListView
+  - __PanelContainer__rootVisualContainer__inspector-window-main-scroll-view__unity-list-faces__unity-vertical-collection-scroll-view__unity-list-faces.Array.data[2].triangles__unity-vertical-collection-scroll-view__Slider__UnityEngine.UIElements.Scroller+ScrollerSlider
   m_Values:
-  - '{"m_ShowAlternatingRowBackgrounds":0,"serializedVirtualizationData":{"scrollOffset":{"x":0.0,"y":0.0},"firstVisibleIndex":0,"contentPadding":0.0,"contentHeight":308.0,"anchoredItemIndex":0,"anchorOffset":0.0}}'
+  - '{"m_ShowAlternatingRowBackgrounds":0,"serializedVirtualizationData":{"scrollOffset":{"x":0.0,"y":0.0},"firstVisibleIndex":0,"contentPadding":0.0,"contentHeight":352.0,"anchoredItemIndex":0,"anchorOffset":0.0}}'
   - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":0.0}'
   - '{}'
   - '{}'
@@ -34,3 +60,29 @@ MonoBehaviour:
   - '{}'
   - '{"m_ShowAlternatingRowBackgrounds":0,"serializedVirtualizationData":{"scrollOffset":{"x":0.0,"y":0.0},"firstVisibleIndex":0,"contentPadding":0.0,"contentHeight":66.0,"anchoredItemIndex":0,"anchorOffset":0.0}}'
   - '{"m_Value":0.0,"m_LowValue":0.0,"m_HighValue":0.0}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'

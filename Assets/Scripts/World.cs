@@ -31,12 +31,13 @@ public class World : MonoBehaviour
     public Color night;
 
     [Header("Player")]
-    public Transform player;
+    public Player player;
     public Vector3Int spawnPosition;
 
     [Header("Materials")]
     public Material material;
     public Material transparentMaterial;
+    public Material waterMaterial;
     public BlockType[] blockTypes;
 
     Chunk[,] chunks = new Chunk[VoxelData.WORLD_SIZE_IN_CHUNKS, VoxelData.WORLD_SIZE_IN_CHUNKS];
@@ -97,22 +98,24 @@ public class World : MonoBehaviour
 
         spawnPosition = new Vector3Int(VoxelData.WORLD_CENTER, VoxelData.CHUNK_HEIGHT - 50, VoxelData.WORLD_CENTER);
 
-        player.position = spawnPosition;
+        player.transform.position = spawnPosition;
         CheckLoadDistance();
         CheckViewDistance();
 
-        playerLastChunkCoord = GetChunkCoordFromVector3(player.position);
+        playerLastChunkCoord = GetChunkCoordFromVector3(player.transform.position);
 
         if (settings.enableThreading)
         {
             ChunkUpdateThread = new Thread(new ThreadStart(ThreadedUpdate));
             ChunkUpdateThread.Start();
         }
+
+        StartCoroutine(Tick());
     }
 
     private void Update()
     {
-        playerChunkCoord = GetChunkCoordFromVector3(player.position);
+        playerChunkCoord = GetChunkCoordFromVector3(player.transform.position);
 
         if (playerChunkCoord.x != playerLastChunkCoord.x || playerChunkCoord.z != playerLastChunkCoord.z)
         {
@@ -150,6 +153,19 @@ public class World : MonoBehaviour
         if (settings.enableThreading)
         {
             ChunkUpdateThread.Abort();
+        }
+    }
+
+    IEnumerator Tick()
+    {
+        while (true)
+        {
+            foreach (ChunkCoord c in activeChunks)
+            {
+                chunks[c.x, c.z].TickUpdate();
+            }
+
+            yield return new WaitForSeconds(VoxelData.tickLength);
         }
     }
 
@@ -265,7 +281,8 @@ public class World : MonoBehaviour
             while (queue.Count > 0)
             {
                 VoxelMod mod = queue.Dequeue();
-                worldData.SetVoxel(mod.pos, mod.id);
+
+                worldData.SetVoxel(mod.pos, mod.id, mod.orientation);
             }
         }
 
@@ -276,8 +293,8 @@ public class World : MonoBehaviour
     {
         clouds.UpdateClouds();
 
-        int chunkX = (int)player.position.x / VoxelData.CHUNK_WIDTH;
-        int chunkZ = (int)player.position.z / VoxelData.CHUNK_WIDTH;
+        int chunkX = (int)player.transform.position.x / VoxelData.CHUNK_WIDTH;
+        int chunkZ = (int)player.transform.position.z / VoxelData.CHUNK_WIDTH;
 
         List<ChunkCoord> previouslyActiveChunks = new List<ChunkCoord>(activeChunks);
 
@@ -316,8 +333,8 @@ public class World : MonoBehaviour
 
     void CheckLoadDistance()
     {
-        int chunkX = (int)player.position.x / VoxelData.CHUNK_WIDTH;
-        int chunkZ = (int)player.position.z / VoxelData.CHUNK_WIDTH;
+        int chunkX = (int)player.transform.position.x / VoxelData.CHUNK_WIDTH;
+        int chunkZ = (int)player.transform.position.z / VoxelData.CHUNK_WIDTH;
 
         List<ChunkCoord> previouslyLoadedChunks = new List<ChunkCoord>(loadedChunks);
 
@@ -358,7 +375,7 @@ public class World : MonoBehaviour
     {
         VoxelState voxel = worldData.GetVoxel(pos);
 
-        if (blockTypes[voxel.id].isSolid)
+        if (voxel != null && blockTypes[voxel.id].isSolid)
         {
             return true;
         }
@@ -451,6 +468,11 @@ public class World : MonoBehaviour
         }
         else if (pos.y > terrainHeight)
         {
+            if (pos.y < VoxelData.SEA_LEVEL)
+            {
+                voxelValue = GetBlockIDFromName("Water");
+            }
+
             return voxelValue;
         }
         else
@@ -514,13 +536,27 @@ public class World : MonoBehaviour
         Debug.Log("Could not find block with the name: " + name);
         return 0;
     }
+
+    public string GetBlockNameFromID(byte id)
+    {
+        if (blockTypes.Length < id)
+        { 
+            Debug.Log("Could not find block with the id: " + id);
+            return "";
+        }
+
+        return blockTypes[id].blockName;
+    }
 }
 
 [System.Serializable]
 public class BlockType 
 {
     public string blockName;
+    public VoxelMeshData meshData;
     public bool isSolid;
+    public bool isLiquid;
+    public bool isActive;
     public bool renderNeighborFaces;
     public byte opacity;
     public Sprite icon;
@@ -561,14 +597,16 @@ public class VoxelMod
 {
     public Vector3Int pos;
     public byte id;
+    public int orientation;
 
     public VoxelMod()
     {
         pos = new Vector3Int();
         id = 0;
+        orientation = 1;
     }
 
-    public VoxelMod(Vector3Int _pos, byte _id)
+    public VoxelMod(Vector3Int _pos, byte _id, int _orientation = 1)
     {
         pos = _pos;
         id = _id;

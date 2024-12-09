@@ -50,6 +50,29 @@ public class DebugScreen : MonoBehaviour
             timer += Time.deltaTime;
         }
 
+        string direction = "";
+        switch (world.player.orientation)
+        {
+            case 0:
+                direction = "South";
+                break;
+            case 5:
+                direction = "West";
+                break;
+            case 1:
+                direction = "North";
+                break;
+            case 4:
+                direction = "East";
+                break;
+            default:
+                direction = "idk, up/down?";
+                break;
+        }
+
+        debugText += "Facing: ";
+        debugText += direction + divider;
+
         text.text = debugText;
     }
 }

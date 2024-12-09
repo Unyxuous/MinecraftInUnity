@@ -87,7 +87,7 @@ public class Clouds : MonoBehaviour
         {
             for (int z = 0; z < cloudTexWidth; z += cloudTileSize)
             {
-                Vector3 pos = world.player.position + new Vector3(x, 0, z) + offset;
+                Vector3 pos = world.player.transform.position + new Vector3(x, 0, z) + offset;
                 pos = new Vector3(RoundToCloud(pos.x), cloudHeight, RoundToCloud(pos.z));
                 Vector2Int cloudPos = CloudTilePosFromV3(pos);
 
